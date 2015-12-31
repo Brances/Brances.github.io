@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一激，二逼，方能成功.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.aimonkey.cn/"/>
-  <updated>2015-12-31T08:09:12.000Z</updated>
+  <updated>2015-12-31T08:22:37.000Z</updated>
   <id>http://www.aimonkey.cn/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://www.aimonkey.cn/2015/12/31/hexo%E7%9A%84%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/"/>
     <id>http://www.aimonkey.cn/2015/12/31/hexo的目录结构/</id>
     <published>2015-12-31T07:54:21.000Z</published>
-    <updated>2015-12-31T08:09:12.000Z</updated>
+    <updated>2015-12-31T08:22:37.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://7xpnu3.com1.z0.glb.clouddn.com/imagehexo%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png" alt="hexo 目录结构"><br><a id="more"></a></p>
 <ul>
 <li>.deploy：执行hexo deploy命令部署到GitHub上的内容目录</li>
@@ -45,9 +45,9 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://www.aimonkey.cn/tags/hexo/"/>
+      <category term="经验" scheme="http://www.aimonkey.cn/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="经验" scheme="http://www.aimonkey.cn/categories/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="hexo" scheme="http://www.aimonkey.cn/categories/hexo/"/>
     
   </entry>
   
@@ -78,37 +78,6 @@
     </summary>
     
       <category term="经验" scheme="http://www.aimonkey.cn/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="hexo" scheme="http://www.aimonkey.cn/categories/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://www.aimonkey.cn/2015/12/29/hello-world/"/>
-    <id>http://www.aimonkey.cn/2015/12/29/hello-world/</id>
-    <published>2015-12-29T08:34:49.000Z</published>
-    <updated>2015-12-30T12:26:17.000Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<a id="more"></a>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files"><a href="#Generate_static_files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>]]>
-    
-    </summary>
-    
-      <category term="入门" scheme="http://www.aimonkey.cn/tags/%E5%85%A5%E9%97%A8/"/>
     
       <category term="hexo" scheme="http://www.aimonkey.cn/categories/hexo/"/>
     
