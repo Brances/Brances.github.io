@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一激，二逼，方能成功.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.aimonkey.cn/"/>
-  <updated>2015-12-31T08:22:37.000Z</updated>
+  <updated>2015-12-31T08:54:05.000Z</updated>
   <id>http://www.aimonkey.cn/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <link href="http://www.aimonkey.cn/2015/12/31/hexo%E7%9A%84%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/"/>
     <id>http://www.aimonkey.cn/2015/12/31/hexo的目录结构/</id>
     <published>2015-12-31T07:54:21.000Z</published>
-    <updated>2015-12-31T08:22:37.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="http://7xpnu3.com1.z0.glb.clouddn.com/imagehexo%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png" alt="hexo 目录结构"><br><a id="more"></a></p>
+    <updated>2015-12-31T08:54:05.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://7xpnu3.com1.z0.glb.clouddn.com/imagehexo%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png?imageView2/1/w/1200/q/75/format/jpg|watermark/2/text/d3d3LmFpbW9ua2V5LmNu/font/5a6L5L2T/fontsize/600/fill/I0UzRERERA==/dissolve/90/gravity/South/dy/10" alt="hexo 目录结构"><br><a id="more"></a></p>
 <ul>
 <li>.deploy：执行hexo deploy命令部署到GitHub上的内容目录</li>
 <li>public：执行hexo generate命令，输出的静态网页内容目录</li>
@@ -41,7 +41,7 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><img src="http://7xpnu3.com1.z0.glb.clouddn.com/imagehexo%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png" alt="hexo 目录结构"><br>]]>
+    <![CDATA[<p><img src="http://7xpnu3.com1.z0.glb.clouddn.com/imagehexo%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png?imageView2/1/w/1200/q/75/format/jpg|watermark/2/text/d3d3LmFpbW9ua2V5LmNu/font/5a6L5L2T/fontsize/600/fill/I0UzRERERA==/dissolve/90/gravity/South/dy/10" alt="hexo 目录结构"><br>]]>
     
     </summary>
     
