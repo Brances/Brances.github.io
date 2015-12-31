@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一激，二逼，方能成功.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.aimonkey.cn/"/>
-  <updated>2015-12-31T03:17:12.000Z</updated>
+  <updated>2015-12-31T08:09:12.000Z</updated>
   <id>http://www.aimonkey.cn/</id>
   
   <author>
@@ -15,55 +15,62 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[hexo的目录结构]]></title>
+    <link href="http://www.aimonkey.cn/2015/12/31/hexo%E7%9A%84%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/"/>
+    <id>http://www.aimonkey.cn/2015/12/31/hexo的目录结构/</id>
+    <published>2015-12-31T07:54:21.000Z</published>
+    <updated>2015-12-31T08:09:12.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://7xpnu3.com1.z0.glb.clouddn.com/imagehexo%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png" alt="hexo 目录结构"><br><a id="more"></a></p>
+<ul>
+<li>.deploy：执行hexo deploy命令部署到GitHub上的内容目录</li>
+<li>public：执行hexo generate命令，输出的静态网页内容目录</li>
+<li>scripts：扩展脚本目录，这里可以自定义一些javascript脚本</li>
+<li>scaffolds：layout模板文件目录，其中的md文件可以添加编辑</li>
+</ul>
+<ul>
+<li>source：文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。 <ul>
+<li>_drafts：草稿文章</li>
+<li>_posts：发布文章</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>themes：主题文件目录</li>
+<li>_config.yml：全局配置文件，大多数的设置都在这里</li>
+<li>package.json：应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于按钮</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://7xpnu3.com1.z0.glb.clouddn.com/imagehexo%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png" alt="hexo 目录结构"><br>]]>
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://www.aimonkey.cn/tags/hexo/"/>
+    
+      <category term="经验" scheme="http://www.aimonkey.cn/categories/%E7%BB%8F%E9%AA%8C/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[我的第一篇文章]]></title>
     <link href="http://www.aimonkey.cn/2015/12/29/My-First-Post/"/>
     <id>http://www.aimonkey.cn/2015/12/29/My-First-Post/</id>
     <published>2015-12-29T11:34:49.000Z</published>
-    <updated>2015-12-31T03:17:12.000Z</updated>
+    <updated>2015-12-31T08:17:12.000Z</updated>
     <content type="html"><![CDATA[<p>欢迎来到Brance的博客，这将是我使用Hexo记录的第一篇博客,这个<a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>真的很强大，我将不遗余力使用它!</p>
-<p>引用块：</p>
-<blockquote><p>content</p>
-<footer><strong>[author] [link] [source_link_title]</strong></footer></blockquote>
-<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
-<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
-<p>文章中插入代码块代码块：</p>
-<figure class="highlight"><figcaption><span>[title] [] [url] [link text]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code snippet</span><br></pre></td></tr></table></figure>
-<p>普通的代码块</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&#39;Hello World!&#39;);</span><br></pre></td></tr></table></figure>
-<p>指定语言</p>
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>
-<p>附加说明</p>
-<figure class="highlight plain"><figcaption><span>Array.map</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">array.map(callback[, thisArg])</span><br></pre></td></tr></table></figure>
-<p>附加说明和网址</p>
-<figure class="highlight plain"><figcaption><span>_.compact</span><a href="http://underscorejs.org/#compact" target="_blank" rel="external">Underscore.js</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">_.compact([0, 1, false, 2, &#39;&#39;, 3]);&#10;=&#62; [1, 2, 3]</span><br></pre></td></tr></table></figure>
-<p>反引号代码块</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[language] [title] [url] [link text] code snippet</span><br></pre></td></tr></table></figure>
+<p><img src="http://7xpnu3.com1.z0.glb.clouddn.com/image%E6%88%91%E7%9A%84github.png" alt="brance github"></p>
 <h2 id="Hexo_u7684_u7B80_u5355_u4F7F_u7528"><a href="#Hexo_u7684_u7B80_u5355_u4F7F_u7528" class="headerlink" title="Hexo的简单使用"></a>Hexo的简单使用</h2><h3 id="u521B_u5EFA_u65B0_u535A_u5BA2"><a href="#u521B_u5EFA_u65B0_u535A_u5BA2" class="headerlink" title="创建新博客"></a>创建新博客</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My First Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info:<a href="https://hexo.io/docs/writinh.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="u5F00_u542F_u672C_u5730_u670D_u52A1"><a href="#u5F00_u542F_u672C_u5730_u670D_u52A1" class="headerlink" title="开启本地服务"></a>开启本地服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server  </span><br><span class="line">或 </span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 <h3 id="u5E38_u7528_u547D_u4EE4_u96C6_u5408"><a href="#u5E38_u7528_u547D_u4EE4_u96C6_u5408" class="headerlink" title="常用命令集合"></a>常用命令集合</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"postName"</span>       <span class="comment">#新建文章</span></span><br><span class="line">$ hexo new page <span class="string">"pageName"</span>  <span class="comment">#新建页面</span></span><br><span class="line">$ hexo generate             <span class="comment">#生成静态页面至public目录</span></span><br><span class="line">$ hexo server               <span class="comment">#开启预览访问端口(默认端口4000,'ctrl + c' 关闭服务)</span></span><br><span class="line">$ hexo deploy               <span class="comment">#将.deploy目录部署到github上</span></span><br><span class="line">$ hexo <span class="built_in">help</span>                 <span class="comment">#查看帮助</span></span><br><span class="line">$ hexo version              <span class="comment">#查看Hexo版本</span></span><br></pre></td></tr></table></figure>
 <h3 id="u590D_u5408_u547D_u4EE4"><a href="#u590D_u5408_u547D_u4EE4" class="headerlink" title="复合命令"></a>复合命令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server -g <span class="comment">#生成并开启服务</span></span><br><span class="line">$ hexo deploy -g <span class="comment">#生成并部署到github</span></span><br></pre></td></tr></table></figure>
+<h3 id="u5F15_u7528_u5757_u7684_u4F7F_u7528_uFF1A"><a href="#u5F15_u7528_u5757_u7684_u4F7F_u7528_uFF1A" class="headerlink" title="引用块的使用："></a>引用块的使用：</h3><blockquote><p>content</p>
+<footer><strong>[author] [link] [source_link_title]</strong></footer></blockquote>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>欢迎来到Brance的博客，这将是我使用Hexo记录的第一篇博客,这个<a href="https://hexo.io/">Hexo</a>真的很强大，我将不遗余力使用它!</p>
-<p>引用块：</p>
-<blockquote><p>content</p>
-<footer><strong>[author] [link] [source_link_title]</strong></footer></blockquote>
-<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
-<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
-<p>文章中插入代码块代码块：</p>
-<figure class="highlight"><figcaption><span>[title] [] [url] [link text]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code snippet</span><br></pre></td></tr></table></figure>
-<p>普通的代码块</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&#39;Hello World!&#39;);</span><br></pre></td></tr></table></figure>
-<p>指定语言</p>
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>
-<p>附加说明</p>
-<figure class="highlight plain"><figcaption><span>Array.map</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">array.map(callback[, thisArg])</span><br></pre></td></tr></table></figure>
-<p>附加说明和网址</p>
-<figure class="highlight plain"><figcaption><span>_.compact</span><a href="http://underscorejs.org/#compact">Underscore.js</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">_.compact([0, 1, false, 2, &#39;&#39;, 3]);&#10;=&#62; [1, 2, 3]</span><br></pre></td></tr></table></figure>
-<p>反引号代码块</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[language] [title] [url] [link text] code snippet</span><br></pre></td></tr></table></figure>
+<p><img src="http://7xpnu3.com1.z0.glb.clouddn.com/image%E6%88%91%E7%9A%84github.png" alt="brance github"></p>
 <h2 id="Hexo_u7684_u7B80_u5355_u4F7F_u7528"><a href="#Hexo_u7684_u7B80_u5355_u4F7F_u7528" class="headerlink" title="Hexo的简单使用"></a>Hexo的简单使用</h2><h3 id="u521B_u5EFA_u65B0_u535A_u5BA2"><a href="#u521B_u5EFA_u65B0_u535A_u5BA2" class="headerlink" title="创建新博客"></a>创建新博客</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My First Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info:<a href="https://hexo.io/docs/writinh.html">Writing</a></p>
 <h3 id="u5F00_u542F_u672C_u5730_u670D_u52A1"><a href="#u5F00_u542F_u672C_u5730_u670D_u52A1" class="headerlink" title="开启本地服务"></a>开启本地服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server  </span><br><span class="line">或 </span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>]]>
