@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一激，二逼，方能成功.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.aimonkey.cn/"/>
-  <updated>2016-01-06T02:46:45.000Z</updated>
+  <updated>2016-01-15T01:50:16.000Z</updated>
   <id>http://www.aimonkey.cn/</id>
   
   <author>
@@ -13,6 +13,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[swift字符串操作]]></title>
+    <link href="http://www.aimonkey.cn/2016/01/13/swift%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/"/>
+    <id>http://www.aimonkey.cn/2016/01/13/swift字符串操作/</id>
+    <published>2016-01-13T09:51:32.000Z</published>
+    <updated>2016-01-15T01:50:16.000Z</updated>
+    <content type="html"><![CDATA[<p>关于字符串的一些常用操作。</p>
+<h3 id="u66FF_u6362"><a href="#u66FF_u6362" class="headerlink" title="替换"></a>替换</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var ReplaceString = <span class="string">"http://www.aimonkey。cn"</span>;</span><br><span class="line">var FilterReplace = ReplaceString.stringByReplacingOccurrencesOfString(<span class="string">"。"</span>, withString: <span class="string">"."</span>, options: NSStringCompareOptions.LiteralSearch, range: nil);</span><br><span class="line">//输出 <span class="string">"http://www.aimonkey.cn"</span></span><br></pre></td></tr></table></figure>
+<h3 id="u8FC7_u6EE4"><a href="#u8FC7_u6EE4" class="headerlink" title="过滤"></a>过滤</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var DeleteString = <span class="string">"http://www.aimonkey。cn"</span>;</span><br><span class="line">var FilterDelete = DeleteString.stringByReplacingOccurrencesOfString(<span class="string">"。"</span>, withString: <span class="string">""</span>, options: NSStringCompareOptions.LiteralSearch, range: nil);</span><br><span class="line">//输出 <span class="string">"http://www.aimonkeycn"</span></span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<h3 id="u8FC7_u6EE4_u524D_u540E_u7A7A_u683C"><a href="#u8FC7_u6EE4_u524D_u540E_u7A7A_u683C" class="headerlink" title="过滤前后空格"></a>过滤前后空格</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var SpaceString = <span class="string">" http://www.aimonkey。cn "</span>;</span><br><span class="line">var AllString = SpaceString.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet());</span><br><span class="line">//输出 <span class="string">"http://www.aimonkey。cn"</span></span><br></pre></td></tr></table></figure>
+<h3 id="u5206_u5272_u5B57_u7B26_u4E32_uFF08_u8FD4_u56DE_u4E00_u4E2A_u5B57_u7B26_u4E32_u6570_u7EC4_uFF09"><a href="#u5206_u5272_u5B57_u7B26_u4E32_uFF08_u8FD4_u56DE_u4E00_u4E2A_u5B57_u7B26_u4E32_u6570_u7EC4_uFF09" class="headerlink" title="分割字符串（返回一个字符串数组）"></a>分割字符串（返回一个字符串数组）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var SplitStringItem = <span class="string">"Angel"</span>;</span><br><span class="line">var ResultString = SplitStringItem.componentsSeparatedByString(<span class="string">"n"</span>);</span><br><span class="line">//输出 [<span class="string">"A"</span>, <span class="string">"gel"</span>]</span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>关于字符串的一些常用操作。</p>
+<h3 id="u66FF_u6362"><a href="#u66FF_u6362" class="headerlink" title="替换"></a>替换</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var ReplaceString = <span class="string">"http://www.aimonkey。cn"</span>;</span><br><span class="line">var FilterReplace = ReplaceString.stringByReplacingOccurrencesOfString(<span class="string">"。"</span>, withString: <span class="string">"."</span>, options: NSStringCompareOptions.LiteralSearch, range: nil);</span><br><span class="line">//输出 <span class="string">"http://www.aimonkey.cn"</span></span><br></pre></td></tr></table></figure>
+<h3 id="u8FC7_u6EE4"><a href="#u8FC7_u6EE4" class="headerlink" title="过滤"></a>过滤</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var DeleteString = <span class="string">"http://www.aimonkey。cn"</span>;</span><br><span class="line">var FilterDelete = DeleteString.stringByReplacingOccurrencesOfString(<span class="string">"。"</span>, withString: <span class="string">""</span>, options: NSStringCompareOptions.LiteralSearch, range: nil);</span><br><span class="line">//输出 <span class="string">"http://www.aimonkeycn"</span></span><br></pre></td></tr></table></figure>]]>
+    
+    </summary>
+    
+      <category term="String" scheme="http://www.aimonkey.cn/tags/String/"/>
+    
+      <category term="Swift" scheme="http://www.aimonkey.cn/categories/Swift/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[如何添加视频和音乐]]></title>

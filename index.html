@@ -112,7 +112,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/经验/" style="font-size: 20px;">经验</a> <a href="/tags/视频/" style="font-size: 10px;">视频</a> <a href="/tags/音乐/" style="font-size: 10px;">音乐</a>
+						<a href="/tags/String/" style="font-size: 10px;">String</a> <a href="/tags/经验/" style="font-size: 20px;">经验</a> <a href="/tags/视频/" style="font-size: 10px;">视频</a> <a href="/tags/音乐/" style="font-size: 10px;">音乐</a>
 					</div>
 				</section>
 				
@@ -185,6 +185,72 @@
 </nav>
 
       <div class="body-wrap">
+  
+    <article id="post-swift字符串操作" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/01/13/swift字符串操作/" class="article-date">
+  	<time datetime="2016-01-13T09:51:32.000Z" itemprop="datePublished">2016-01-13</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/01/13/swift字符串操作/">swift字符串操作</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>关于字符串的一些常用操作。</p>
+<h3 id="u66FF_u6362"><a href="#u66FF_u6362" class="headerlink" title="替换"></a>替换</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var ReplaceString = <span class="string">"http://www.aimonkey。cn"</span>;</span><br><span class="line">var FilterReplace = ReplaceString.stringByReplacingOccurrencesOfString(<span class="string">"。"</span>, withString: <span class="string">"."</span>, options: NSStringCompareOptions.LiteralSearch, range: nil);</span><br><span class="line">//输出 <span class="string">"http://www.aimonkey.cn"</span></span><br></pre></td></tr></table></figure>
+<h3 id="u8FC7_u6EE4"><a href="#u8FC7_u6EE4" class="headerlink" title="过滤"></a>过滤</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var DeleteString = <span class="string">"http://www.aimonkey。cn"</span>;</span><br><span class="line">var FilterDelete = DeleteString.stringByReplacingOccurrencesOfString(<span class="string">"。"</span>, withString: <span class="string">""</span>, options: NSStringCompareOptions.LiteralSearch, range: nil);</span><br><span class="line">//输出 <span class="string">"http://www.aimonkeycn"</span></span><br></pre></td></tr></table></figure>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/String/">String</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/Swift/">Swift</a>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a  href="/2016/01/13/swift字符串操作/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
   
     <article id="post-如何添加视频" class="article article-type-post" itemscope itemprop="blogPost">
   
