@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一激，二逼，方能成功.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.aimonkey.cn/"/>
-  <updated>2016-05-26T02:58:39.000Z</updated>
+  <updated>2016-05-26T03:05:56.000Z</updated>
   <id>http://www.aimonkey.cn/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://www.aimonkey.cn/2016/05/26/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/"/>
     <id>http://www.aimonkey.cn/2016/05/26/冒泡排序/</id>
     <published>2016-05-26T02:48:41.000Z</published>
-    <updated>2016-05-26T02:58:39.000Z</updated>
+    <updated>2016-05-26T03:05:56.000Z</updated>
     <content type="html"><![CDATA[<h3 id="u7ECF_u5178_u7B97_u6CD5"><a href="#u7ECF_u5178_u7B97_u6CD5" class="headerlink" title="经典算法"></a>经典算法</h3><p>1.冒泡排序</p>
 <p>冒泡排序每一趟排序把最大的放在最右边。</p>
 <p>比如：</p>
@@ -36,6 +36,10 @@
     <![CDATA[<h3 id="u7ECF_u5178_u7B97_u6CD5"><a href="#u7ECF_u5178_u7B97_u6CD5" class="headerlink" title="经典算法"></a>经典算法</h3><p>1.冒泡排序</p>
 <p>冒泡排序每一趟排序把]]>
     </summary>
+    
+      <category term="冒泡排序" scheme="http://www.aimonkey.cn/tags/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/"/>
+    
+      <category term="算法" scheme="http://www.aimonkey.cn/categories/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
